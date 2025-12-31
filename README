@@ -69,21 +69,21 @@
 
 ## 4. 저장소 구조
 
-'''bash
+```bash
 ├─ README.md
 ├─ data
 │ └─ processed
-│ ├─ backtest_input.csv
-│ └─ reg_input_topic0_minute.csv
+│   ├─ backtest_input.csv
+│   └─ reg_input_topic0_minute.csv
 │
 ├─ code
 │ └─ main
-│ ├─ backtest.py
-│ └─ regression.py
+│   ├─ backtest.py
+│   └─ regression.py
 │
 └─ results
-└─ (회귀 결과 CSV 및 전략 성과 그래프)
-...
+  └─ (회귀 결과 CSV 및 전략 성과 그래프)
+``` 
 
 
 ## 5. 주요 스크립트 설명
